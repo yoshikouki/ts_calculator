@@ -2,7 +2,7 @@
   "name": "ts_calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/app.ts",
+  "main": "lib/calculator.ts",
   "scripts": {
     "ts-node": "ts-node",
     "test": "echo \"Error: no test specified\" && exit 1"
