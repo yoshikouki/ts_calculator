@@ -2,5 +2,7 @@ const multiplicator = (a, b, printText) => {
   console.log(printText,  a * b);
 }
 
-multiplicator(2, 4, '2 と 4 の乗算結果:');
-multiplicator('string 型では？', 4, 'string と 4 の乗算結果:');
+const a: number = Number(process.argv[2])
+const b: number = Number(process.argv[3])
+
+multiplicator(a, b, `${a} と ${b} の乗算結果:`);
