@@ -21,7 +21,7 @@ const parseArguments = (args: Array<string>): MultiplyValues => {
   }
 }
 
-const multiplicator = (a, b, printText) => {
+const multiplicator = (a: number, b: number, printText: string) => {
   console.log(printText,  a * b);
 }
 
