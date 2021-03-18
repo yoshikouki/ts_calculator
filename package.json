@@ -2,10 +2,12 @@
   "name": "ts_calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/app.ts",
+  "main": "lib/calculator.ts",
   "scripts": {
     "ts-node": "ts-node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "multiply": "ts-node lib/multiply.ts",
+    "calculate": "ts-node lib/calculator.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/yoshikouki/ts_calculator#readme",
   "devDependencies": {
+    "@types/node": "^14.14.35",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   }
