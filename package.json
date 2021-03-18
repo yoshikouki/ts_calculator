@@ -7,7 +7,8 @@
     "ts-node": "ts-node",
     "test": "echo \"Error: no test specified\" && exit 1",
     "multiply": "ts-node lib/multiply.ts",
-    "calculate": "ts-node lib/calculator.ts"
+    "calculate": "ts-node lib/calculator.ts",
+    "calculateBmi": "ts-node lib/bmiCalculator.ts"
   },
   "repository": {
     "type": "git",
